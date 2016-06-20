@@ -1,0 +1,40 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "description": "Projeto de testes para live coding",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "knex": "knex --knexfile ./knexfile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimoreira/tutorial-nodejs-api.git"
+  },
+  "keywords": [
+    "api",
+    "nodejs",
+    "live-coding"
+  ],
+  "author": "Diego Moreira <diegoalvesmoreira@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimoreira/tutorial-nodejs-api/issues"
+  },
+  "homepage": "https://github.com/dimoreira/tutorial-nodejs-api#readme",
+  "dependencies": {
+    "bookshelf": "^0.9.5",
+    "bookshelf-bcrypt": "^2.0.0",
+    "bookshelf-uuid": "^1.0.0",
+    "boom": "^3.2.1",
+    "hapi": "^13.4.1",
+    "hapi-auth-jwt2": "^7.0.1",
+    "joi": "^8.4.2",
+    "jsonwebtoken": "^7.0.1",
+    "knex": "^0.11.7",
+    "mysql": "^2.11.1"
+  },
+  "devDependencies": {
+    "standard": "^7.1.2"
+  }
+}
